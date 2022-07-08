@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
 
-dataset = pd.read_csv('dataset.csv')
+dataset = pd.read_csv('data/dataset.csv')
 
 dataset['experience'].fillna(0, inplace=True)
 
